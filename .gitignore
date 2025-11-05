@@ -1,0 +1,31 @@
+@'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.python-version
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Generated data
+data/processed/
+data/raw/*
+!data/raw/.gitkeep
+
+# Caches / models
+.cache/
+huggingface/
+'@ | Out-File -Encoding UTF8 .gitignore
